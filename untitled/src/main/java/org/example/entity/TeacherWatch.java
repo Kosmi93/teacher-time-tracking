@@ -1,0 +1,19 @@
+package org.example.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.ArrayList;
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class TeacherWatch {
+    private String fileName;
+    private String dayName;
+    private ArrayList<Byte> watch;
+
+
+}
